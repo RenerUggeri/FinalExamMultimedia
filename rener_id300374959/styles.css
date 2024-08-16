@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Segoe UI", Roboto, sans-serif, monospace;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #212529;
+  background-color: #ffd54f;
+  font-weight: 300;
+}
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.date {
+  font-size: 3rem;
+}
+
+.day-name {
+  padding-top: 0.5rem;
+  padding-bottom: 0.75rem;
+}
+
+.day {
+  letter-spacing: 0.3em;
+  margin-right: -0.3em;
+}
+
+.clock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  font-weight: 400;
+  gap: 1rem;
+}
+
+.time {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+
+.clock p {
+  margin: 0;
+}
+
+.session {
+  font-size: 1.5rem;
+  margin-left: 0.5rem;
+}
+
+.container--btn {
+  display: flex;
+  flex: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 1.25rem;
+}
+
+button {
+  background-color: #4f79ff;
+  color: white;
+  font-size: 1.25rem;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
